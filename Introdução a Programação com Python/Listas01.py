@@ -1,0 +1,2 @@
+#Uma lista vazia
+L = []

@@ -1,0 +1,2 @@
+# Se o valor 0 for digitado no exercício 05,16.py, o loop de repetição roda uma vez e mostra na tela que
+# nenhuma nota de R$50 será necessária, pois a variável cédulas está com 0 e a variável valor está com 50

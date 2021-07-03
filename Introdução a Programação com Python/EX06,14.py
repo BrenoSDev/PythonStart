@@ -1,0 +1,22 @@
+#Usando a ordenação por bolha em uma lista já ordenada
+L=[1,2,3,4,5]
+fim=5
+while fim > 1:
+	trocou=False
+	x=0
+	while x<(fim-1):
+		if L[x] > L[x+1]:
+			trocou=True
+			temp=L[x]
+			L[x]=L[x+1]
+			L[x+1]=temp
+		x+=1
+	if not trocou:
+		break
+	fim -=1
+for e in L:
+	print(e)
+
+#Como a lista já está ordenada, o programa vai entrar no segundo while, mas como nenhum termo da lista vai ser trocado,
+#a variável trocou continua com o valor False e a condição de parada not trocou será True, fazendo o programa interromper
+#a repetição e executar o for, mostrando os elementos sem alteração.
